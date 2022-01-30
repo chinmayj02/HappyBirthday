@@ -6,6 +6,21 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/androidparty" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -14,6 +29,7 @@
         android:layout_marginTop="56dp"
         android:fontFamily="cursive"
         android:text="HAPPY BIRTHDAY, CHINMAY !"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
         android:typeface="normal"
@@ -28,9 +44,10 @@
         android:layout_marginBottom="85dp"
         android:fontFamily="casual"
         android:text="FROM CHINMAY.."
-        android:textColor="@color/teal_700"
+        android:textColor="@color/purple_700"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
